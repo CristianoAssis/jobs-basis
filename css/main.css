@@ -1,0 +1,53 @@
+a:hover {text-decoration: none;}
+
+/* === Header === */
+header {
+	background: url('../img/bgHeader.png') no-repeat;
+	background-size: cover;
+	background-position: center!important;
+	height: 150px;
+    width: 100%;
+}
+
+ h3 {
+	margin: 90px 0 0 0;
+	font-size: 20px;
+}
+
+hr {
+	border-color: #dfdfdf;
+    margin: -1px 0 43px 0;
+}
+
+/* === Links === */
+.container .row:last-child div.col-md-4 div {
+	background: #efefef;
+	text-align: center;
+}
+
+.container .row:last-child div.col-md-4 div img {
+	margin: 30px auto 10px;
+}
+
+.container .row:last-child div.col-md-4 div h5 {
+	background: #f37b22;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 20px;
+    padding: 12px 0;
+    position: relative;
+    bottom: -15px;
+}
+
+
+/* === Links === */
+footer {
+	background: url('../img/bgFooter.png');
+	background-size: cover;
+	background-position: center!important;
+	height: 20px;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
