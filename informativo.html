@@ -49,19 +49,11 @@
     </div><!-- / content-export -->
          
     <div class="btn-download">
-      <select id="combo">
-        <option value="gerente">Gerentes, Requisitos e Outros</option>
-        <option value="java">Java</option>
-        <option value="estagio">Estágio</option>
-        <option value="desenvolvimento">Desenvolvimento em Geral</option>
-      </select>
-      <br/>
-      <br/>
 
       <a id="generatorImg">Clique aqui para finalizar</a> 
       <a id="downloadImg" href="" style="display:none;" download>Fazer Download</a>
 
-      <a class="voltar" href="index.php">Voltar</a>
+      <a class="voltar" href="https://jobs-basis.herokuapp.com/">Voltar</a>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -91,21 +83,6 @@
             });
 
           }); 
-
-          $('#combo').change(function(){
-            if($(this).val() == 'java'){
-              $('#change-url').attr('src','img/single/java.png');
-            }
-            if($(this).val() == 'gerente'){
-              $('#change-url').attr('src','img/single/gerente.png');
-            }
-            if($(this).val() == 'desenvolvimento'){
-              $('#change-url').attr('src','img/single/desenvolvimento.png');
-            }
-            if($(this).val() == 'estagio'){
-              $('#change-url').attr('src','img/single/stag.png');
-            }
-          });
 
         });
 
