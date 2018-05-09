@@ -1,0 +1,39 @@
+/* Header */
+header label {
+  background: #6e1415;
+  color: white;
+  font-size: 15px;
+  padding: 11px 19px;
+}
+
+header {padding-left: 20px;}
+
+header img {
+  margin: 15px 0 21px 0;
+}
+
+header textarea.titulo {
+  display: inline-block;
+  margin: 15px 0 0 0;
+  font-size: 25px;
+  color: #595a5c;
+  width: 340px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#content-export {
+  border-top: solid 5px #f37220;
+  width: 759px;
+}
+
+.text-content {
+  float: left;
+  width: 360px;
+  margin-top: 17px;
+}
+
+.content-gray {
+  height: 282px;
+  padding: 30px 0 30px 20px;
+}

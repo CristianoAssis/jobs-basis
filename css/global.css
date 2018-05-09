@@ -1,0 +1,124 @@
+body.mult #content-export {
+  width: 761px;
+}
+
+#content-export {
+  display: inline-block;
+  background: white;
+}
+
+body.mult .text-content {
+  float: left;
+  margin: -6px 0 0 0;
+}
+
+.text-content b {
+  font-size: 15px;
+  color: #3e3e3e;
+}
+
+hr {
+  border: dashed 1px #d3d3d3;
+    margin: -17px 0 10px 0;
+}
+
+/* Content */       
+.image {
+  float: left;
+  margin-top: -279px;
+}
+
+.content-dark {
+  background: #231f20;
+  margin-top: 1px;
+  padding: 29px 0 28px 20px;
+  width: 400px;
+  z-index: 999999;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.content-dark p {
+  margin: 0 0 4px;
+}
+
+.content-dark a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+body.mult .content-gray {
+  padding: 30px 0 0px 20px;
+  margin: 0 0 -17px 0;
+}
+.content-gray {
+  background: #eaeaea;
+}
+
+.content-gray ul {
+  padding: 0px;
+}
+
+.content-gray ul li {
+  list-style: none;
+  list-style: none;
+  display: inline-grid;
+  width: 350px;
+  margin: 0 5px 10px 0;
+}
+
+/* Form */
+input {
+  border: none;
+  background: transparent;
+  resize: none;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding: 0px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #3e3e3e;
+}
+
+textarea {
+  border: none;
+  background: transparent;
+  resize: none;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding: 0px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #7a7a7b;
+}
+
+/* Global */
+* {
+  outline: none!important;
+  font-family: 'Open Sans', sans-serif!important;
+}
+
+.btn-download {
+  display: inline-block;
+  text-align: center;
+  margin: 0px 0 0 70px;
+}
+
+.btn-download a {
+  padding: 10px 60px;
+  color:white;
+  text-align: center;
+  background: #82181a;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.btn-download a.voltar {
+  background: #231f20;
+}
