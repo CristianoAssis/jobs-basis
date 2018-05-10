@@ -1,0 +1,55 @@
+/* Header */
+header {
+  border-bottom: dashed 1px #d3d3d3;
+  margin: 0px 20px 30px 20px;
+  float: left;
+  width: 721px;
+  padding: 0 0 20px 0;
+}
+
+header div {
+  float: right;
+  width: 121px;
+  margin: 30px 0 0 0;
+}
+
+header div label {
+  background: #6e1415;
+  color: white;
+  font-size: 15px;
+  padding: 11px 19px;
+  display: inline-block;
+}
+
+header img {
+  float: left;
+  margin: 0 0 0 -12px;
+}
+
+header div input {
+  border: none;
+  background: transparent;
+  resize: none;
+  overflow: hidden;
+  margin: 6px 0 0px 0;
+  padding: 0px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #3e3e3e;
+  text-align: center;
+}
+
+.text-content {
+      width: 721px;
+    padding: 20px;
+    float: left;
+}
+
+#content-export {
+  float: left;
+  width: 760px;
+}
+
+.btn-download {
+    margin: 80px 0 0 90px;
+}

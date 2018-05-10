@@ -6,45 +6,29 @@
 
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/global.css">
-      <link rel="stylesheet" type="text/css" href="css/single.css">
+      <link rel="stylesheet" type="text/css" href="css/informativo.css">
   </head>
 
   <body>
     <div id="content-export">
 
+      <img src="img/informativo/stripeTop.jpg" />
+
       <header>
         <img src="img/single/logo-basis.jpg" />
-        <br/>
-        <label>Vaga em Aberto</label>
-        <br/>
-        <textarea class="titulo">Título Vaga</textarea>
+        <div>
+          <label>Informativo</label>
+          <input type="text" id="date" value="" />
+        </div>
       </header>
 
       <div class="text-content">
-      
-        <div class="content-gray">
-            <b>Formação:</b>
-            <textarea onkeyup="auto_grow(this)">digite a formação aqui...</textarea>
 
-            <b>Conhecimento:</b>
-            <textarea onkeyup="auto_grow(this)">digite os conhecimentos necessários aqui...</textarea>
-
-            <b>Desejável</b>
-            <textarea onkeyup="auto_grow(this)">digite as habilidades necessárias aqui...</textarea>
-        </div>
-
-        <div class="content-dark">
-          <p>Interessados Cadastrar Currículo pelo site:</p>
-          
-            <a href="#">www.basis.com.br/trabalhe-conosco</a> </br>
-            <a href="#">ou pelo email: rh@basis.com.br</a>
-          
-        </div>
+        <textarea onkeyup="auto_grow(this)">digite os conhecimentos necessários aqui...</textarea>
 
       </div>
 
-      <img id="change-url" class="image" src="img/single/gerente.png" />
-
+      <img src="img/informativo/stripeFooter.jpg" />
 
     </div><!-- / content-export -->
          
@@ -91,6 +75,20 @@
             element.style.height = "15px";
             element.style.height = (element.scrollHeight)+"px";
         }
+
+        // Date Today
+
+        var d = new Date();
+
+        var month = d.getMonth()+1;
+        var day = d.getDate();
+
+        var output = 
+            ((''+day).length<2 ? '0' : '') + day + '/' +
+            ((''+month).length<2 ? '0' : '') + month + '/' +
+            d.getFullYear();
+
+        document.getElementById("date").value = (output);
       </script>
 
    </body>
