@@ -23,6 +23,7 @@ hr {
 .container .row:last-child div.col-md-4 div {
 	background: #efefef;
 	text-align: center;
+	margin-bottom: 70px;
 }
 
 .container .row:last-child div.col-md-4 div img {
@@ -49,5 +50,4 @@ footer {
 	height: 20px;
     width: 100%;
     bottom: 0px;
-    position: absolute;
 }

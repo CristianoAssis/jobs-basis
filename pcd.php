@@ -54,7 +54,7 @@
       <a id="generatorImg">Clique aqui para finalizar</a> 
       <a id="downloadImg" href="" style="display:none;" download>Fazer Download</a>
 
-      <a class="voltar" href="https://jobs-basis.herokuapp.com/">Voltar</a>
+      <a class="voltar" href="https://rh-basis.herokuapp.com/">Voltar</a>
     </div>
 
 

@@ -30,11 +30,11 @@
       <div class="row">
         
         <div class="col-md-3">
-          <img src="img/logo.png" alt="Logo" />
+          <img src="img/logo-basis.jpg" alt="Logo" />
         </div>
 
         <div class="col-md-9 text-right">
-          <h3>Divulgação de Vagas</h3>
+          <h3>Gerador de Informativos</h3>
         </div>
 
         <div class="col-md-12">
@@ -59,7 +59,7 @@
         <div class="col-md-4">
           <div>
             <a href="single.php">
-              <img src="img/icoJob.png" alt="Ico" />
+              <img src="img/icoSingle.png" alt="Ico" />
               <h5>
                 Vaga única
               </h5>
@@ -70,9 +70,20 @@
         <div class="col-md-4">
           <div>
             <a href="mult.php">
-              <img src="img/icoJobs.png" alt="Ico" />
+              <img src="img/icoMult.png" alt="Ico" />
               <h5>
                 Vagas Diversas
+              </h5>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div>
+            <a href="informativo.php">
+              <img src="img/icoInformativo.png" alt="Ico" />
+              <h5>
+                Informativo
               </h5>
             </a>
           </div>
